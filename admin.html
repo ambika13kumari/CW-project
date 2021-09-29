@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <style>
+                .main_div{margin: auto;text-align: center;}
+                .display_div{display: flex; margin-top: 2%;height: 70%;}
+                #all_user{flex-grow: 1;}
+                .display_div > div { flex-grow: 2; border: 2px dashed black; padding: 20px;}
+        </style>
+    </head>
+    <body>
+        <div class="main_div">
+            <h4>This is admin window</h4>
+            <button id="log_out">Log Out</button>
+
+            <div class="display_div">
+                <div id="all_user">
+                    <h2>All Users</h2>
+                </div>
+                <div id="history"></div>
+            </div>
+
+
+        </div>
+
+
+
+        <script type="text/javascript" src="admin.js"></script>
+    </body>
+</html>
